@@ -1,1 +1,0 @@
-# jartechdev.github.io
