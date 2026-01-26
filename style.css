@@ -267,11 +267,3 @@ section {
   border-radius: 5px;
   font-size: 15px;
 }
-
-.login-btn:hover {
-  background: #1d4ed8;
-}
-
-section {
-  scroll-margin-top: 90px; /* height of navbar */
-}
