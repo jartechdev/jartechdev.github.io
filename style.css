@@ -258,20 +258,6 @@ section {
   color: #38bdf8;
 }
 
-/* LOGIN BUTTON */
-.login-btn {
-  padding: 8px 18px;
-  background: #2563eb;
-  color: #ffffff;
-  text-decoration: none;
-  border-radius: 5px;
-  font-size: 15px;
-}
-
-.login-btn:hover {
-  background: #1d4ed8;
-}
-
 section {
   scroll-margin-top: 90px; /* height of navbar */
 }
