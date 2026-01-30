@@ -373,3 +373,8 @@ img {
   }
 }
 
+@media (max-width: 768px) {
+  nav ul {
+    justify-content: space-between;
+  }
+}
