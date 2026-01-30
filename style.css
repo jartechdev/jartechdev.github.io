@@ -389,8 +389,8 @@ img {
 }
 
 @media (max-width: 768px) {
-  html, body {
+  html, body, header, nav, main, section, footer {
     background-color: #0b1c2d !important;
-    override-colors: hidden;
+    overflow-x: hidden;
   }
 }
