@@ -1,3 +1,10 @@
+html, body {
+  min-height: 100vh;
+  height: 100%;
+  background-color:white;
+  overscroll-behavior: none;
+}
+
 /* ===== Reset & Base Styles ===== */
 * {
   margin: 0;
@@ -365,3 +372,4 @@ img {
     font-size: 48px;
   }
 }
+
