@@ -57,14 +57,20 @@ body {
 
 .navbar .container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 1.5rem;
+  flex-wrap: wrap;          /* ✅ FIX CUT NAV */
+  justify-content: center;  /* ✅ CENTER ON MOBILE */
+  gap: 12px;
+  padding: 10px 16px;
+}
+
+.nav-links li {
+  white-space: nowrap;
 }
 
 .nav-links a {
@@ -384,6 +390,13 @@ img {
 }
 
 @media (max-width: 768px) {
+  .navbar  .container{
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+  }
+  }
+  
   nav ul {
     justify-content: space-between;
   }
