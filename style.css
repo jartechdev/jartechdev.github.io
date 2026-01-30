@@ -391,6 +391,6 @@ img {
 @media (max-width: 768px) {
   html, body {
     background-color: #0b1c2d !important;
-    overflow-x: hidden;
+    override-colors: hidden;
   }
 }
