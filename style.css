@@ -1,7 +1,8 @@
 html, body {
   min-height: 100vh;
+  background-color: dark navy;
   height: 100%;
-  background-color:dark navy;
+  background: none;
   overscroll-behavior: none;
 }
 
