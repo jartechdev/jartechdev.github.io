@@ -1,3 +1,21 @@
+html {
+  background-color: #0b1c2d;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0b1c2d;
+  overflow-x: hidden;
+}
+
+header, nav, main, section, footer {
+  width: 100%;
+  max-width: 100%;
+  background-color: #0b1c2d;
+}
+
 * {
   outline: 1px solid red;
 }
@@ -371,7 +389,7 @@ img {
 }
 
 @media (max-width: 768px) {
-  html, body, header, nav, main, section, footer {
+  html, body {
     background-color: #0b1c2d !important;
     overflow-x: hidden;
   }
