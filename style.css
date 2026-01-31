@@ -320,10 +320,6 @@ body {
   padding: 15px;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
 @media (max-width: 480px) {
 
   h1 {
@@ -340,8 +336,8 @@ img {
   }
 
   .hero {
-    text-align: center;
-    padding: 30px 15px;
+    min-height: auto;
+    padding-bottom: 40px;
   }
 
   .cards {
@@ -417,3 +413,62 @@ img {
     text-align: center;
   }
 }
+.profile-img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #0b1c2d; /* dark navy */
+}
+.profile-img {
+  display: block;
+  margin: 0 auto;
+
+
+.about-content {
+  display: flex;
+  align-items: center;     
+  gap: 12px;               
+}
+
+.profile-small {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.about-text {
+  max-width: 500px;
+}
+
+.profile-small {
+  width: 80px !important;
+  height: 80px !important;
+  max-width: 80px !important;
+  border-radius: 50% !important;
+  object-fit: cover !important;
+  display: block;
+}
+
+.profile-img {
+  width: 160px;        
+  height: 160px;       
+  border-radius: 50%;
+  object-fit: cover;   
+  display: block;
+  margin: 0 auto;
+  }
+  #about{
+    padding-top: 20px;
+  }   
+  #about h2 {
+    margin-top: 0;
+    margin-bottom: 8px;
+  } 
+  #about p {
+    margin-top: 0;
+  }
+  #about{
+    outline: 2px solid red;
+  }
