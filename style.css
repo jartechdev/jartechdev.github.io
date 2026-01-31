@@ -472,3 +472,22 @@ body {
   #about{
     outline: 2px solid red;
   }
+  .about-content {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.about-img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .about-content {
+    flex-direction: column;
+    text-align: center;
+  }
+}
